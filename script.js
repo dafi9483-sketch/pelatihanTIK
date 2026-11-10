@@ -1,7 +1,10 @@
-// 1. Pilih tombol berdasarkan ID-nya
+// Pilih tombol berdasarkan ID
 const tombolsapa = document.getElementById('GreetButton');
-// 2. Tambahkan 'event listener' untuk aksi 'click'
+
+// Tambahkan event listener untuk aksi klik
 tombolsapa.addEventListener('click', function() {
-  // 3. Jalankan kode ini ketika tombol di-klik
-  alert('Hallo Terima Kasi Telah Berkunjung!!!');
+
+    // Tampilkan pesan ketika tombol diklik
+    alert('Halo! Terima kasih telah berkunjung!!!');
+
 });
